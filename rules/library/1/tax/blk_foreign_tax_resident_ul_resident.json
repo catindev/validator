@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.tax.blk_foreign_tax_resident_ul_resident",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_FOREIGN_TAX_RESIDENT_UL_RESIDENT",
+  "message": "ЮЛ-резидент не может быть иностранным налогоплательщиком — регистрация отклоняется",
+  "field": "tax.foreign",
+  "value": true
+}

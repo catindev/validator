@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.name.err_first_name_length",
+  "operator": "length_max",
+  "level": "ERROR",
+  "code": "ERR_FIRST_NAME_LENGTH",
+  "message": "Имя: не более 100 символов",
+  "field": "name.first",
+  "value": 100
+}

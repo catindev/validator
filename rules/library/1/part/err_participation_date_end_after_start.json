@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.part.err_participation_date_end_after_start",
+  "operator": "field_greater_than_field",
+  "level": "ERROR",
+  "code": "ERR_PARTICIPATION_DATE_END_AFTER_START",
+  "message": "Дата прекращения статуса: должна быть позже даты приобретения",
+  "field": "part.end",
+  "value_field": "part.start"
+}

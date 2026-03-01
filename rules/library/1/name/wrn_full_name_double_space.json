@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.name.wrn_full_name_double_space",
+  "operator": "not_matches_regex",
+  "level": "WARNING",
+  "code": "WRN_FULL_NAME_DOUBLE_SPACE",
+  "message": "Полное наименование: двойные пробелы (допустимо для нерезидентов, мягкий контроль)",
+  "field": "name.full",
+  "value": "  "
+}

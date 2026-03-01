@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.ogrn.err_ogrnip_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_OGRNIP_PRESENT",
+  "message": "ОГРНИП ИП-резидента: должен быть заполнен",
+  "field": "beneficiary.ogrnip"
+}

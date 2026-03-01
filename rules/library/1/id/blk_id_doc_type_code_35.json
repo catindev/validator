@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.blk_id_doc_type_code_35",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_ID_DOC_TYPE_CODE_35",
+  "message": "Код вида документа = 35 (Иной документ ЛБГ) — регистрация отклоняется",
+  "field": "id.type",
+  "value": 35
+}

@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.part.err_participation_basis_id_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_PARTICIPATION_BASIS_ID_PRESENT",
+  "message": "Идентификатор основания участия: должен быть заполнен",
+  "field": "part.basis"
+}

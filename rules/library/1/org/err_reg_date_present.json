@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.org.err_reg_date_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_REG_DATE_PRESENT",
+  "message": "Дата государственной регистрации ЮЛ-нерезидента: должна быть заполнена",
+  "field": "org.regdate"
+}

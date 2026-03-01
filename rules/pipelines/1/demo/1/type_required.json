@@ -1,7 +1,0 @@
-{
-  "operator": "not_empty",
-  "field": "beneficiary.type",
-  "level": "ERROR",
-  "code": "TYPE_REQUIRED",
-  "message": "beneficiary.type обязателен"
-}

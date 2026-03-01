@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.name.err_last_name_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_LAST_NAME_PRESENT",
+  "message": "Фамилия: должна быть заполнена",
+  "field": "name.last"
+}

@@ -1,0 +1,8 @@
+{
+  "beneficiary.type": "FL_NONRESIDENT",
+  "contacts.email": "a@b.com",
+  "name.last": "Doe",
+  "name.first": "Jane",
+  "birth.date": "1980-01-01",
+  "beneficiary.citizenship": "US"
+}

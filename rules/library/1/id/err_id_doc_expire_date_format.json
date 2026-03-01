@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.err_id_doc_expire_date_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_ID_DOC_EXPIRE_DATE_FORMAT",
+  "message": "Дата окончания документа: при передаче — формат YYYY-MM-DD",
+  "field": "id.expires",
+  "value": "^\\d{4}-\\d{2}-\\d{2}$"
+}

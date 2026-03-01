@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.ogrn.err_ogrnip_checksum",
+  "operator": "valid_ogrn",
+  "level": "ERROR",
+  "code": "ERR_OGRNIP_CHECKSUM",
+  "message": "ОГРНИП ИП: контрольный разряд должен быть корректным",
+  "field": "beneficiary.ogrnip"
+}

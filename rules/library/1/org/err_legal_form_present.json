@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.org.err_legal_form_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_LEGAL_FORM_PRESENT",
+  "message": "Организационно-правовая форма: должна быть заполнена",
+  "field": "org.form"
+}

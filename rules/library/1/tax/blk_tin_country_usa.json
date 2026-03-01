@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.tax.blk_tin_country_usa",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_TIN_COUNTRY_USA",
+  "message": "Страна налогового резидентства: США — регистрация отклоняется",
+  "field": "tax.country",
+  "value": "US"
+}

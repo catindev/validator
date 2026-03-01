@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.err_passport_rf_issuer_code_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_PASSPORT_RF_ISSUER_CODE_FORMAT",
+  "message": "Паспорт РФ: код подразделения — формат XXX-XXX (7 символов)",
+  "field": "id.issuercode",
+  "value": "^\\d{3}-\\d{3}$"
+}

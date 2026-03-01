@@ -1,0 +1,22 @@
+[
+  [
+    {
+      "rule": "libriary.tax.err_is_foreign_id_doc_present"
+    },
+    {
+      "rule": "libriary.tax.err_is_foreign_id_doc_cross"
+    }
+  ],
+  {
+    "rule": "libriary.tax.err_is_us_tax_resident_present"
+  },
+  {
+    "rule": "libriary.tax.blk_is_us_tax_resident"
+  },
+  {
+    "rule": "libriary.tax.err_is_us_resident_present"
+  },
+  {
+    "rule": "libriary.tax.blk_is_us_resident"
+  }
+]

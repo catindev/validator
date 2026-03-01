@@ -1,0 +1,23 @@
+[
+  {
+    "rule": "libriary.id.err_passport_rf_series_present"
+  },
+  {
+    "rule": "libriary.id.err_passport_rf_series_length"
+  },
+  {
+    "rule": "libriary.id.err_passport_rf_series_not_zeros"
+  },
+  {
+    "rule": "libriary.id.err_passport_rf_number_length"
+  },
+  {
+    "rule": "libriary.id.err_passport_rf_number_not_zeros"
+  },
+  {
+    "rule": "libriary.id.err_passport_rf_issuer_code_present"
+  },
+  {
+    "rule": "libriary.id.err_passport_rf_issuer_code_format"
+  }
+]

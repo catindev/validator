@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.birth.blk_citizenship_usa",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_CITIZENSHIP_USA",
+  "message": "Гражданство: США — регистрация отклоняется",
+  "field": "beneficiary.citizenship",
+  "value": "US"
+}

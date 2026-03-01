@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.inn.err_inn_ul_not_uniform",
+  "operator": "not_matches_regex",
+  "level": "ERROR",
+  "code": "ERR_INN_UL_NOT_UNIFORM",
+  "message": "ИНН ЮЛ: не должен состоять из одинаковых цифр",
+  "field": "beneficiary.inn",
+  "value": "^(\\d)\\1{9}$"
+}

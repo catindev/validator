@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.address.err_address_foreign_city_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_ADDRESS_FOREIGN_CITY_PRESENT",
+  "message": "Иностранный адрес: поле city должно быть заполнено",
+  "field": "faddr.city"
+}

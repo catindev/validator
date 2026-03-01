@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.stay.err_stay_doc_issue_date_not_future",
+  "operator": "less_than",
+  "level": "ERROR",
+  "code": "ERR_STAY_DOC_ISSUE_DATE_NOT_FUTURE",
+  "message": "Документ пребывания: дата начала не может быть в будущем",
+  "field": "stay.issued",
+  "value": "$today"
+}

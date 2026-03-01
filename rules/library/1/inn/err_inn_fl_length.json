@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.inn.err_inn_fl_length",
+  "operator": "length_equals",
+  "level": "ERROR",
+  "code": "ERR_INN_FL_LENGTH",
+  "message": "ИНН ФЛ/ИП: ровно 12 символов",
+  "field": "beneficiary.inn",
+  "value": 12
+}

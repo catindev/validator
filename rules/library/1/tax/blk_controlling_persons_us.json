@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.tax.blk_controlling_persons_us",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_CONTROLLING_PERSONS_US",
+  "message": "FATCA 19.2 — среди контролирующих лиц есть налоговые резиденты США — регистрация отклоняется",
+  "field": "fatca.cpus",
+  "value": true
+}

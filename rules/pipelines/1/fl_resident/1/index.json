@@ -1,0 +1,97 @@
+[
+  {
+    "rule": "libriary.exc.exc_beneficiary_type_present"
+  },
+  {
+    "rule": "libriary.exc.exc_beneficiary_type_valid"
+  },
+  {
+    "rule": "libriary.birth.err_citizenship_present"
+  },
+  {
+    "rule": "libriary.birth.err_citizenship_valid"
+  },
+  {
+    "rule": "libriary.birth.blk_citizenship_usa"
+  },
+  {
+    "rule": "libriary.birth.err_birth_place_present"
+  },
+  {
+    "rule": "libriary.birth.blk_birth_place_usa"
+  },
+  [
+    {
+      "rule": "libriary.inn.err_inn_fl_present"
+    },
+    {
+      "rule": "libriary.inn.err_inn_fl_length"
+    },
+    {
+      "rule": "libriary.inn.err_inn_fl_not_uniform"
+    },
+    {
+      "rule": "libriary.inn.err_inn_fl_checksum"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.name.err_last_name_present"
+    },
+    {
+      "rule": "libriary.name.err_last_name_length"
+    },
+    {
+      "rule": "libriary.name.err_last_name_format"
+    },
+    {
+      "rule": "libriary.name.err_first_name_present"
+    },
+    {
+      "rule": "libriary.name.err_first_name_length"
+    },
+    {
+      "rule": "libriary.name.err_first_name_format"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.birth.err_birth_date_present"
+    },
+    {
+      "rule": "libriary.birth.err_birth_date_format"
+    },
+    {
+      "rule": "libriary.birth.err_birth_date_past"
+    }
+  ],
+  {
+    "pipeline": "libriary.sub.id_doc_common"
+  },
+  [
+    {
+      "rule": "libriary.address.err_address_country_present"
+    },
+    {
+      "rule": "libriary.address.err_address_city_present"
+    }
+  ],
+  {
+    "rule": "libriary.address.blk_address_usa"
+  },
+  {
+    "rule": "libriary.contacts.err_contacts_fl_any_filled"
+  },
+  {
+    "rule": "libriary.address.err_postal_address_usa"
+  },
+  {
+    "rule": "libriary.part.err_participation_basis_id_present"
+  },
+  {
+    "pipeline": "libriary.sub.fatca_fl_ip"
+  },
+  {
+    "pipeline": "libriary.sub.participation_common"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.err_id_doc_issue_date_after_birth",
+  "operator": "field_greater_than_field",
+  "level": "ERROR",
+  "code": "ERR_ID_DOC_ISSUE_DATE_AFTER_BIRTH",
+  "message": "Дата выдачи документа: не может быть раньше даты рождения",
+  "field": "id.issued",
+  "value_field": "birth.date"
+}

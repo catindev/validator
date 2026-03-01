@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.part.err_participation_date_start_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_PARTICIPATION_DATE_START_FORMAT",
+  "message": "Дата приобретения статуса бенефициара: формат YYYY-MM-DD",
+  "field": "part.start",
+  "value": "^\\d{4}-\\d{2}-\\d{2}$"
+}

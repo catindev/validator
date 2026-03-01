@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.name.err_last_name_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_LAST_NAME_FORMAT",
+  "message": "Фамилия: только кириллица, пробел и дефис",
+  "field": "name.last",
+  "value": "^[а-яёА-ЯЁ\\s\\-]+$"
+}

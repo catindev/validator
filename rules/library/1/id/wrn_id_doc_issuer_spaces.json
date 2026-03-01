@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.wrn_id_doc_issuer_spaces",
+  "operator": "not_matches_regex",
+  "level": "WARNING",
+  "code": "WRN_ID_DOC_ISSUER_SPACES",
+  "message": "Орган, выдавший документ: лишние пробелы или мусорные символы (мягкий контроль)",
+  "field": "id.issuer",
+  "value": "(^\\s|\\s$|\\s{2,})"
+}

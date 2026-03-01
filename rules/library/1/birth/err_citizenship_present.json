@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.birth.err_citizenship_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_CITIZENSHIP_PRESENT",
+  "message": "Гражданство: должно быть заполнено",
+  "field": "beneficiary.citizenship"
+}

@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.birth.err_birth_date_past",
+  "operator": "less_than",
+  "level": "ERROR",
+  "code": "ERR_BIRTH_DATE_PAST",
+  "message": "Дата рождения: не может быть в будущем",
+  "field": "birth.date",
+  "value": "$today"
+}

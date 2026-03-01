@@ -1,0 +1,40 @@
+[
+  {
+    "rule": "libriary.id.err_id_doc_type_code_present"
+  },
+  {
+    "rule": "libriary.id.err_id_doc_type_code_valid"
+  },
+  {
+    "rule": "libriary.id.blk_id_doc_type_code_35"
+  },
+  {
+    "rule": "libriary.id.err_id_doc_type_name_present"
+  },
+  {
+    "rule": "libriary.id.err_id_doc_number_present"
+  },
+  {
+    "rule": "libriary.id.err_id_doc_issue_date_present"
+  },
+  {
+    "rule": "libriary.id.err_id_doc_issue_date_format"
+  },
+  {
+    "rule": "libriary.id.err_id_doc_issue_date_not_future"
+  },
+  {
+    "rule": "libriary.id.err_id_doc_issue_date_after_birth"
+  },
+  [
+    {
+      "rule": "libriary.id.err_id_doc_issuer_present"
+    },
+    {
+      "rule": "libriary.id.wrn_id_doc_issuer_spaces"
+    }
+  ],
+  {
+    "pipeline": "libriary.sub.passport_rf"
+  }
+]

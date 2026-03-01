@@ -1,0 +1,7 @@
+{
+  "beneficiary.type": "IP_NONRESIDENT",
+  "contacts.email": "a@b.com",
+  "name.last": "Smith",
+  "name.first": "John",
+  "birth.date": "1980-01-01"
+}

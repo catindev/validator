@@ -1,0 +1,11 @@
+{
+  "rule_id": "libriary.contacts.err_phone_foreign_present",
+  "operator": "any_filled",
+  "level": "ERROR",
+  "code": "ERR_PHONE_FOREIGN_PRESENT",
+  "message": "Иностранный телефон: должен быть заполнен при отсутствии РФ-телефона (при наличии иностранного резидентства)",
+  "paths": [
+    "contacts.phone",
+    "contacts.phoneforeign"
+  ]
+}

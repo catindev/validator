@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_is_foreign_id_doc_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_IS_FOREIGN_ID_DOC_PRESENT",
+  "message": "Флаг «документ иностранному гражданину/ЛБГ»: должен быть заполнен",
+  "field": "fatca.foreignid"
+}

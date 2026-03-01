@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.ogrn.err_reg_number_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_REG_NUMBER_PRESENT",
+  "message": "Регистрационный номер нерезидента: должен быть заполнен",
+  "field": "beneficiary.reg"
+}

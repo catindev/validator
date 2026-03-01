@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.address.err_postal_address_usa",
+  "operator": "not_contains",
+  "level": "BLOCK",
+  "code": "ERR_POSTAL_ADDRESS_USA",
+  "message": "Почтовый адрес: содержит «США» — регистрация отклоняется",
+  "field": "contacts.postal",
+  "value": "США"
+}

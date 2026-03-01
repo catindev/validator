@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_is_passive_nfo_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_IS_PASSIVE_NFO_PRESENT",
+  "message": "Признак пассивной НФО: должен быть заполнен",
+  "field": "fatca.passive"
+}

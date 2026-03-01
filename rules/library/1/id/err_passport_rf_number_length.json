@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.err_passport_rf_number_length",
+  "operator": "length_equals",
+  "level": "ERROR",
+  "code": "ERR_PASSPORT_RF_NUMBER_LENGTH",
+  "message": "Паспорт РФ: номер — ровно 6 символов",
+  "field": "id.number",
+  "value": 6
+}

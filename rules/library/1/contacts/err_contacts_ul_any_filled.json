@@ -1,0 +1,11 @@
+{
+  "rule_id": "libriary.contacts.err_contacts_ul_any_filled",
+  "operator": "any_filled",
+  "level": "ERROR",
+  "code": "ERR_CONTACTS_UL_ANY_FILLED",
+  "message": "ЮЛ: должно быть заполнено хотя бы одно из: phone, email",
+  "paths": [
+    "contacts.phone",
+    "contacts.email"
+  ]
+}

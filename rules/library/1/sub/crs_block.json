@@ -1,0 +1,33 @@
+[
+  {
+    "rule": "libriary.tax.err_tin_country_present"
+  },
+  {
+    "rule": "libriary.tax.blk_tin_country_usa"
+  },
+  [
+    {
+      "rule": "libriary.tax.err_tin_present"
+    },
+    {
+      "rule": "libriary.tax.err_tin_absence_reason_present"
+    },
+    {
+      "rule": "libriary.tax.err_tin_absence_reason_valid"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.address.err_address_foreign_country_present"
+    },
+    {
+      "rule": "libriary.address.err_address_foreign_city_present"
+    },
+    {
+      "rule": "libriary.address.blk_address_foreign_usa"
+    }
+  ],
+  {
+    "rule": "libriary.contacts.err_phone_foreign_present"
+  }
+]

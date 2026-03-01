@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.address.blk_address_usa",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_ADDRESS_USA",
+  "message": "Адрес: содержит «США» — регистрация отклоняется",
+  "field": "addr.country",
+  "value": "US"
+}

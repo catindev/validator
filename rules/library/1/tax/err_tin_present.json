@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_tin_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_TIN_PRESENT",
+  "message": "ИИНН: должен быть заполнен при наличии иностранного резидентства",
+  "field": "tax.tin"
+}

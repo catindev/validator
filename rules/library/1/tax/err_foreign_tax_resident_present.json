@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_foreign_tax_resident_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_FOREIGN_TAX_RESIDENT_PRESENT",
+  "message": "Признак иностранного налогоплательщика: должен быть заполнен",
+  "field": "tax.foreign"
+}

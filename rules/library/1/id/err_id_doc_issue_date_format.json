@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.err_id_doc_issue_date_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_ID_DOC_ISSUE_DATE_FORMAT",
+  "message": "Дата выдачи документа: формат YYYY-MM-DD",
+  "field": "id.issued",
+  "value": "^\\d{4}-\\d{2}-\\d{2}$"
+}

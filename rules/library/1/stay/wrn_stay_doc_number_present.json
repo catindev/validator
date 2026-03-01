@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.stay.wrn_stay_doc_number_present",
+  "operator": "not_empty",
+  "level": "WARNING",
+  "code": "WRN_STAY_DOC_NUMBER_PRESENT",
+  "message": "Документ пребывания: серия и номер — рекомендуется заполнить",
+  "field": "stay.number"
+}

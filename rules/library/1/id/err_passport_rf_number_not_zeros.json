@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.err_passport_rf_number_not_zeros",
+  "operator": "not_equals",
+  "level": "ERROR",
+  "code": "ERR_PASSPORT_RF_NUMBER_NOT_ZEROS",
+  "message": "Паспорт РФ: номер не должен быть '000000'",
+  "field": "id.number",
+  "value": "000000"
+}

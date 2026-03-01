@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.stay.err_stay_doc_issue_date_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_STAY_DOC_ISSUE_DATE_PRESENT",
+  "message": "Документ пребывания: дата начала срока действия должна быть заполнена",
+  "field": "stay.issued"
+}

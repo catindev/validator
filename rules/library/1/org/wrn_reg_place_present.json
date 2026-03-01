@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.org.wrn_reg_place_present",
+  "operator": "not_empty",
+  "level": "WARNING",
+  "code": "WRN_REG_PLACE_PRESENT",
+  "message": "Место регистрации ИП: рекомендуется заполнить (мягкий контроль)",
+  "field": "org.regplace"
+}

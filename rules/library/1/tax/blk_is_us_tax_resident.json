@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.tax.blk_is_us_tax_resident",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_IS_US_TAX_RESIDENT",
+  "message": "Бенефициар — налоговый резидент США — регистрация отклоняется",
+  "field": "fatca.ustaxresident",
+  "value": true
+}

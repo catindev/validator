@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.stay.err_migration_card_expire_date_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_MIGRATION_CARD_EXPIRE_DATE_FORMAT",
+  "message": "Миграционная карта: дата окончания — формат YYYY-MM-DD (при передаче)",
+  "field": "migration.expires",
+  "value": "^\\d{4}-\\d{2}-\\d{2}$"
+}

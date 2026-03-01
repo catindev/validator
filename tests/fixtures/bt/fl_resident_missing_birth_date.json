@@ -1,0 +1,11 @@
+{
+  "beneficiary.type": "FL_RESIDENT",
+  "contacts.phone": "+79991234567",
+  "name.last": "Иванов",
+  "name.first": "Иван",
+  "beneficiary.citizenship": "RU",
+  "id.type": "21",
+  "id.number": "123456",
+  "id.issued": "2010-01-01",
+  "id.issuer": "ОВД"
+}

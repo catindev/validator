@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_controlling_persons_foreign_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_CONTROLLING_PERSONS_FOREIGN_PRESENT",
+  "message": "Признак иностранных контролирующих лиц: должен быть заполнен",
+  "field": "fatca.cpforeign"
+}

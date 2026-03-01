@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.stay.err_migration_card_issue_date_not_future",
+  "operator": "less_than",
+  "level": "ERROR",
+  "code": "ERR_MIGRATION_CARD_ISSUE_DATE_NOT_FUTURE",
+  "message": "Миграционная карта: дата начала не может быть в будущем",
+  "field": "migration.issued",
+  "value": "$today"
+}

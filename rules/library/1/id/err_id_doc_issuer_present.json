@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.id.err_id_doc_issuer_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_ID_DOC_ISSUER_PRESENT",
+  "message": "Орган, выдавший документ: должен быть заполнен",
+  "field": "id.issuer"
+}

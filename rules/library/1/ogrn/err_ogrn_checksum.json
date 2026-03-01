@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.ogrn.err_ogrn_checksum",
+  "operator": "valid_ogrn",
+  "level": "ERROR",
+  "code": "ERR_OGRN_CHECKSUM",
+  "message": "ОГРН ЮЛ: контрольный разряд должен быть корректным",
+  "field": "beneficiary.ogrn"
+}

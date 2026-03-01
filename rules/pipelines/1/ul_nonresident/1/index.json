@@ -1,0 +1,84 @@
+[
+  {
+    "rule": "libriary.exc.exc_beneficiary_type_present"
+  },
+  {
+    "rule": "libriary.exc.exc_beneficiary_type_valid"
+  },
+  {
+    "rule": "libriary.inn.err_inn_or_kio_present"
+  },
+  {
+    "rule": "libriary.ogrn.err_reg_number_present"
+  },
+  [
+    {
+      "rule": "libriary.name.err_full_name_present"
+    },
+    {
+      "rule": "libriary.name.wrn_full_name_double_space"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.name.err_full_name_lat_present"
+    },
+    {
+      "rule": "libriary.name.err_full_name_lat_latin_only"
+    }
+  ],
+  {
+    "rule": "libriary.name.err_short_name_lat_latin_only"
+  },
+  [
+    {
+      "rule": "libriary.org.err_reg_date_present"
+    },
+    {
+      "rule": "libriary.org.err_reg_date_format"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.address.err_address_country_present"
+    },
+    {
+      "rule": "libriary.address.err_address_city_present"
+    }
+  ],
+  {
+    "rule": "libriary.address.blk_address_usa"
+  },
+  {
+    "rule": "libriary.contacts.err_contacts_ul_any_filled"
+  },
+  {
+    "rule": "libriary.tax.err_foreign_tax_resident_present"
+  },
+  [
+    {
+      "rule": "libriary.tax.err_tin_country_present"
+    },
+    {
+      "rule": "libriary.tax.err_tin_present"
+    },
+    {
+      "rule": "libriary.address.err_address_foreign_country_present"
+    },
+    {
+      "rule": "libriary.address.err_address_foreign_city_present"
+    }
+  ],
+  {
+    "rule": "libriary.tax.blk_tin_country_usa"
+  },
+  {
+    "rule": "libriary.address.blk_address_foreign_usa"
+  },
+  {
+    "pipeline": "libriary.sub.fatca_ul"
+  },
+  {
+    "pipeline": "libriary.sub.participation_common"
+  }
+]

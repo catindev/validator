@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.exc.exc_beneficiary_type_valid",
+  "operator": "in_dictionary",
+  "level": "EXCEPTION",
+  "code": "EXC_BENEFICIARY_TYPE_VALID",
+  "message": "beneficiary_type должен быть из допустимого списка",
+  "field": "beneficiary.type",
+  "dictionary": "beneficiary_types"
+}

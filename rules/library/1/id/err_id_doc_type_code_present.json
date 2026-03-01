@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.id.err_id_doc_type_code_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_ID_DOC_TYPE_CODE_PRESENT",
+  "message": "Код вида документа: должен быть заполнен",
+  "field": "id.type"
+}

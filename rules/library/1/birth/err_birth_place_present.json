@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.birth.err_birth_place_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_BIRTH_PLACE_PRESENT",
+  "message": "Место рождения: должно быть заполнено",
+  "field": "birth.place"
+}

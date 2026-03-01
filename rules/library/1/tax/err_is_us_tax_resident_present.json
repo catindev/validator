@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_is_us_tax_resident_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_IS_US_TAX_RESIDENT_PRESENT",
+  "message": "Признак налогового резидента США (ФЛ/ИП): должен быть заполнен",
+  "field": "fatca.ustaxresident"
+}

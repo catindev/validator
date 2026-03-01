@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.name.err_full_name_lat_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_FULL_NAME_LAT_PRESENT",
+  "message": "Полное наименование на иностранном языке: обязательно для нерезидента",
+  "field": "name.latfull"
+}

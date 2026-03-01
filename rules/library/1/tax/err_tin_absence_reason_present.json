@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_tin_absence_reason_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_TIN_ABSENCE_REASON_PRESENT",
+  "message": "Код причины отсутствия ИИНН: должен быть заполнен при отсутствии ИИНН",
+  "field": "tax.reason"
+}

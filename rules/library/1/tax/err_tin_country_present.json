@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_tin_country_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_TIN_COUNTRY_PRESENT",
+  "message": "Страна иностранного налогового резидентства: должна быть заполнена при наличии иностранного резидентства",
+  "field": "tax.country"
+}

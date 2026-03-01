@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_is_us_taxpayer_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_IS_US_TAXPAYER_PRESENT",
+  "message": "FATCA 19.1 — признак US-налогоплательщика: должен быть заполнен",
+  "field": "fatca.ustaxpayer"
+}

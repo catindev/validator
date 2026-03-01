@@ -1,0 +1,12 @@
+{
+  "rule_id": "libriary.tax.err_is_foreign_id_doc_cross",
+  "operator": "cross_check",
+  "level": "ERROR",
+  "code": "ERR_IS_FOREIGN_ID_DOC_CROSS",
+  "message": "Флаг «документ иностранному гражданину/ЛБГ» НЕ может быть false, если код документа из группы foreign (31–37, 99)",
+  "fields": [
+    "fatca.foreignid",
+    "id.type"
+  ],
+  "constraint": "if_code_foreign_then_flag_must_be_true"
+}

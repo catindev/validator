@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.name.err_short_name_lat_latin_only",
+  "operator": "not_matches_regex",
+  "level": "ERROR",
+  "code": "ERR_SHORT_NAME_LAT_LATIN_ONLY",
+  "message": "Краткое наименование на иностранном языке: должно содержать только латиницу (при передаче)",
+  "field": "name.latshort",
+  "value": "[а-яёА-ЯЁ]"
+}

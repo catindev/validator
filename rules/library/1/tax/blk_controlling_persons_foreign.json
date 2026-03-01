@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.tax.blk_controlling_persons_foreign",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_CONTROLLING_PERSONS_FOREIGN",
+  "message": "Среди контролирующих лиц есть иностранные налоговые резиденты — регистрация отклоняется",
+  "field": "fatca.cpforeign",
+  "value": true
+}

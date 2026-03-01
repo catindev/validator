@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.name.err_full_name_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_FULL_NAME_PRESENT",
+  "message": "Полное наименование: должно быть заполнено",
+  "field": "name.full"
+}

@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.id.err_id_doc_issue_date_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_ID_DOC_ISSUE_DATE_PRESENT",
+  "message": "Дата выдачи документа: должна быть заполнена",
+  "field": "id.issued"
+}

@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.tax.blk_is_passive_nfo",
+  "operator": "not_equals",
+  "level": "BLOCK",
+  "code": "BLK_IS_PASSIVE_NFO",
+  "message": "Бенефициар — пассивная НФО — регистрация отклоняется",
+  "field": "fatca.passive",
+  "value": true
+}

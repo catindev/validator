@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.id.err_id_doc_type_code_valid",
+  "operator": "in_dictionary",
+  "level": "ERROR",
+  "code": "ERR_ID_DOC_TYPE_CODE_VALID",
+  "message": "Код вида документа: должен быть из классификатора",
+  "field": "id.type",
+  "dictionary": "document_types"
+}

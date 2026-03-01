@@ -1,0 +1,12 @@
+{
+  "rule_id": "libriary.contacts.err_contacts_fl_any_filled",
+  "operator": "any_filled",
+  "level": "ERROR",
+  "code": "ERR_CONTACTS_FL_ANY_FILLED",
+  "message": "ФЛ/ИП: должно быть заполнено хотя бы одно из: phone, email, postal_address",
+  "paths": [
+    "contacts.phone",
+    "contacts.email",
+    "contacts.postal"
+  ]
+}

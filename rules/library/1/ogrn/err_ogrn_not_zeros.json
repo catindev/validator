@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.ogrn.err_ogrn_not_zeros",
+  "operator": "not_equals",
+  "level": "ERROR",
+  "code": "ERR_OGRN_NOT_ZEROS",
+  "message": "ОГРН ЮЛ: не должен состоять только из нулей",
+  "field": "beneficiary.ogrn",
+  "value": "0000000000000"
+}

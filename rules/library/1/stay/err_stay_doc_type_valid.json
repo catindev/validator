@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.stay.err_stay_doc_type_valid",
+  "operator": "in_dictionary",
+  "level": "ERROR",
+  "code": "ERR_STAY_DOC_TYPE_VALID",
+  "message": "Документ пребывания: вид документа должен быть из справочника",
+  "field": "stay.type",
+  "dictionary": "stay_document_types"
+}

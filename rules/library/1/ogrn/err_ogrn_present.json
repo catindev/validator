@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.ogrn.err_ogrn_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_OGRN_PRESENT",
+  "message": "ОГРН ЮЛ-резидента: должен быть заполнен",
+  "field": "beneficiary.ogrn"
+}

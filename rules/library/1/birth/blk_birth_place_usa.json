@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.birth.blk_birth_place_usa",
+  "operator": "not_contains",
+  "level": "BLOCK",
+  "code": "BLK_BIRTH_PLACE_USA",
+  "message": "Место рождения: содержит «США» — регистрация отклоняется",
+  "field": "birth.place",
+  "value": "США"
+}

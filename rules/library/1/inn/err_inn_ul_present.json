@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.inn.err_inn_ul_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_INN_UL_PRESENT",
+  "message": "ИНН ЮЛ: должен быть заполнен",
+  "field": "beneficiary.inn"
+}

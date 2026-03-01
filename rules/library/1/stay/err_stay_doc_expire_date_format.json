@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.stay.err_stay_doc_expire_date_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_STAY_DOC_EXPIRE_DATE_FORMAT",
+  "message": "Документ пребывания: дата окончания — формат YYYY-MM-DD (при передаче)",
+  "field": "stay.expires",
+  "value": "^\\d{4}-\\d{2}-\\d{2}$"
+}

@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.inn.err_inn_fl_checksum",
+  "operator": "valid_inn",
+  "level": "ERROR",
+  "code": "ERR_INN_FL_CHECKSUM",
+  "message": "ИНН ФЛ/ИП: контрольный разряд должен быть корректным",
+  "field": "beneficiary.inn"
+}

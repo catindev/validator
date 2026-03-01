@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.address.err_address_country_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_ADDRESS_COUNTRY_PRESENT",
+  "message": "Адрес: поле country должно быть заполнено",
+  "field": "addr.country"
+}

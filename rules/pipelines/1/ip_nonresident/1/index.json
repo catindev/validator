@@ -1,0 +1,126 @@
+[
+  {
+    "rule": "libriary.exc.exc_beneficiary_type_present"
+  },
+  {
+    "rule": "libriary.exc.exc_beneficiary_type_valid"
+  },
+  {
+    "rule": "libriary.birth.err_citizenship_present"
+  },
+  {
+    "rule": "libriary.birth.err_citizenship_valid"
+  },
+  {
+    "rule": "libriary.birth.blk_citizenship_usa"
+  },
+  {
+    "rule": "libriary.birth.err_birth_place_present"
+  },
+  {
+    "rule": "libriary.birth.blk_birth_place_usa"
+  },
+  {
+    "rule": "libriary.inn.err_inn_or_kio_present"
+  },
+  [
+    {
+      "rule": "libriary.name.err_full_name_present"
+    },
+    {
+      "rule": "libriary.name.err_last_name_present"
+    },
+    {
+      "rule": "libriary.name.err_last_name_length"
+    },
+    {
+      "rule": "libriary.name.err_last_name_format"
+    },
+    {
+      "rule": "libriary.name.err_first_name_present"
+    },
+    {
+      "rule": "libriary.name.err_first_name_length"
+    },
+    {
+      "rule": "libriary.name.err_first_name_format"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.birth.err_birth_date_present"
+    },
+    {
+      "rule": "libriary.birth.err_birth_date_format"
+    },
+    {
+      "rule": "libriary.birth.err_birth_date_past"
+    }
+  ],
+  {
+    "pipeline": "libriary.sub.id_doc_common"
+  },
+  [
+    {
+      "rule": "libriary.stay.err_stay_doc_type_valid"
+    },
+    {
+      "rule": "libriary.stay.wrn_stay_doc_number_present"
+    },
+    {
+      "rule": "libriary.stay.err_stay_doc_issue_date_present"
+    },
+    {
+      "rule": "libriary.stay.err_stay_doc_issue_date_format"
+    },
+    {
+      "rule": "libriary.stay.err_stay_doc_issue_date_not_future"
+    },
+    {
+      "rule": "libriary.stay.err_stay_doc_expire_date_format"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.stay.err_migration_card_number_present"
+    },
+    {
+      "rule": "libriary.stay.err_migration_card_issue_date_present"
+    },
+    {
+      "rule": "libriary.stay.err_migration_card_issue_date_format"
+    },
+    {
+      "rule": "libriary.stay.err_migration_card_issue_date_not_future"
+    },
+    {
+      "rule": "libriary.stay.err_migration_card_expire_date_format"
+    }
+  ],
+  [
+    {
+      "rule": "libriary.address.err_address_country_present"
+    },
+    {
+      "rule": "libriary.address.err_address_city_present"
+    }
+  ],
+  {
+    "rule": "libriary.address.blk_address_usa"
+  },
+  {
+    "rule": "libriary.contacts.err_contacts_fl_any_filled"
+  },
+  {
+    "rule": "libriary.address.err_postal_address_usa"
+  },
+  {
+    "pipeline": "libriary.sub.crs_block"
+  },
+  {
+    "pipeline": "libriary.sub.fatca_fl_ip"
+  },
+  {
+    "pipeline": "libriary.sub.participation_common"
+  }
+]

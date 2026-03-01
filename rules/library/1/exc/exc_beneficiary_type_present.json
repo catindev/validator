@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.exc.exc_beneficiary_type_present",
+  "operator": "not_empty",
+  "level": "EXCEPTION",
+  "code": "EXC_BENEFICIARY_TYPE_PRESENT",
+  "message": "beneficiary_type должен быть передан",
+  "field": "beneficiary.type"
+}

@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.birth.err_birth_date_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_BIRTH_DATE_PRESENT",
+  "message": "Дата рождения: должна быть заполнена",
+  "field": "birth.date"
+}

@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.name.err_full_name_lat_latin_only",
+  "operator": "not_matches_regex",
+  "level": "ERROR",
+  "code": "ERR_FULL_NAME_LAT_LATIN_ONLY",
+  "message": "Полное наименование на иностранном языке: должно содержать только латиницу",
+  "field": "name.latfull",
+  "value": "[а-яёА-ЯЁ]"
+}

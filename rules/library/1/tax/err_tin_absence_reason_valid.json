@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.tax.err_tin_absence_reason_valid",
+  "operator": "in_dictionary",
+  "level": "ERROR",
+  "code": "ERR_TIN_ABSENCE_REASON_VALID",
+  "message": "Код причины отсутствия ИИНН: значение из справочника (A/B/C)",
+  "field": "tax.reason",
+  "dictionary": "tin_absence_reason"
+}

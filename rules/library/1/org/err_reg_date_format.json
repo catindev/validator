@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.org.err_reg_date_format",
+  "operator": "matches_regex",
+  "level": "ERROR",
+  "code": "ERR_REG_DATE_FORMAT",
+  "message": "Дата государственной регистрации: формат YYYY-MM-DD",
+  "field": "org.regdate",
+  "value": "^\\d{4}-\\d{2}-\\d{2}$"
+}

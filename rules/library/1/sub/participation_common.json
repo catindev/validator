@@ -1,0 +1,19 @@
+[
+  {
+    "rule": "libriary.part.err_participation_basis_id_present"
+  },
+  {
+    "rule": "libriary.part.err_participation_date_start_present"
+  },
+  {
+    "rule": "libriary.part.err_participation_date_start_format"
+  },
+  [
+    {
+      "rule": "libriary.part.err_participation_date_end_format"
+    },
+    {
+      "rule": "libriary.part.err_participation_date_end_after_start"
+    }
+  ]
+]

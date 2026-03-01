@@ -1,0 +1,11 @@
+{
+  "rule_id": "libriary.inn.err_inn_or_kio_present",
+  "operator": "any_filled",
+  "level": "ERROR",
+  "code": "ERR_INN_OR_KIO_PRESENT",
+  "message": "Нерезидент: должен быть заполнен ИНН или КИО (хотя бы одно)",
+  "paths": [
+    "beneficiary.inn",
+    "beneficiary.kio"
+  ]
+}

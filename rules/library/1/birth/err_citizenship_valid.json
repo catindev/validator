@@ -1,0 +1,9 @@
+{
+  "rule_id": "libriary.birth.err_citizenship_valid",
+  "operator": "in_dictionary",
+  "level": "ERROR",
+  "code": "ERR_CITIZENSHIP_VALID",
+  "message": "Гражданство: значение должно быть из справочника АБС ЦФТ",
+  "field": "beneficiary.citizenship",
+  "dictionary": "citizenship"
+}

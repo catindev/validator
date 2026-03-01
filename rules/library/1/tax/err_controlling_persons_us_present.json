@@ -1,0 +1,8 @@
+{
+  "rule_id": "libriary.tax.err_controlling_persons_us_present",
+  "operator": "not_empty",
+  "level": "ERROR",
+  "code": "ERR_CONTROLLING_PERSONS_US_PRESENT",
+  "message": "FATCA 19.2 — признак US-налогоплательщиков среди контролирующих лиц: должен быть заполнен",
+  "field": "fatca.cpus"
+}
