@@ -12,3 +12,7 @@ File layout (as requested):
 - `rules/library/{version}/...`
 - `rules/pipelines/{version}/{pipeline_name}/{version}/index.json`
 - local sub-pipeline or rule inside same pipeline folder: `{name}.json`
+
+
+Library demo:
+- pipeline imports: `{ "pipeline": "libriary.common.contacts_required" }`

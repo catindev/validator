@@ -6,6 +6,7 @@ const { loadManifest } = require("./lib/manifest");
 const { createDictionaryProvider } = require("./lib/dictionaries");
 const { createResolver } = require("./lib/resolver");
 const { createEngine } = require("./lib/engine");
+const { createDslValidator } = require("./lib/dsl_validator");
 
 function printUsage() {
   console.error("Usage:");
@@ -67,10 +68,13 @@ function readBody(bodyPath) {
       libraryVersion: manifest.library_version
     });
 
+    const dslValidator = createDslValidator({ resolver });
+
     const engine = createEngine({
       rulesRoot,
       dictionaries,
       resolver,
+      dslValidator,
       limits: {
         max_depth: manifest.max_depth || 25,
         max_rules: manifest.max_rules || 5000,

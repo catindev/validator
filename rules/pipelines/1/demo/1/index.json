@@ -5,9 +5,7 @@
   {
     "rule": "type_known"
   },
-  [
-    {
-      "rule": "contacts_any"
-    }
-  ]
+  {
+    "pipeline": "libriary.common.contacts_required"
+  }
 ]
