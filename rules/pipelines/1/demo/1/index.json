@@ -1,0 +1,13 @@
+[
+  {
+    "rule": "type_required"
+  },
+  {
+    "rule": "type_known"
+  },
+  [
+    {
+      "rule": "contacts_any"
+    }
+  ]
+]

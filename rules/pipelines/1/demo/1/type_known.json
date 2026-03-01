@@ -1,0 +1,8 @@
+{
+  "operator": "in_dictionary",
+  "field": "beneficiary.type",
+  "dictionary": "beneficiary_type",
+  "level": "ERROR",
+  "code": "TYPE_UNKNOWN",
+  "message": "beneficiary.type неизвестен"
+}

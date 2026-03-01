@@ -1,0 +1,11 @@
+{
+  "operator": "any_filled",
+  "paths": [
+    "contacts.phone",
+    "contacts.email",
+    "contacts.postal"
+  ],
+  "level": "ERROR",
+  "code": "CONTACTS_REQUIRED",
+  "message": "Нужен хотя бы один контакт"
+}

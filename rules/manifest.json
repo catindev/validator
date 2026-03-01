@@ -1,0 +1,8 @@
+{
+  "dictionaries_version": 1,
+  "library_version": 1,
+  "pipelines_version": 1,
+  "max_depth": 25,
+  "max_rules": 5000,
+  "max_execution_time": 3000
+}
